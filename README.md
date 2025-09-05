@@ -1,3 +1,8 @@
+
+---
+# GLPI
+---
+
 ## Introduction
 
 **GLPI (Gestionnaire Libre de Parc Informatique)** est une application web open source qui permet de gérer l’ensemble des ressources et services informatiques d’une organisation.
@@ -13,7 +18,8 @@ GLPI permet de faire :
 
 ## A) Architecture du projet :
 
-![image.png](attachment:f0ab4f31-3d90-42bf-8e84-fac53f8058dd:image.png)
+<img width="1516" height="577" alt="image" src="https://github.com/user-attachments/assets/0c1560c5-5a0c-4a6a-86a1-acea73f7877d" />
+
 
 ## B) Mise en place de GLPI :
 
@@ -125,7 +131,8 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
 
 - Arborescence du dossier projet :
 
-![image.png](attachment:7dc554aa-978d-4a3f-a921-d361f0f2e431:image.png)
+<img width="1180" height="544" alt="image" src="https://github.com/user-attachments/assets/dfcabc91-6eff-4f81-b23b-a90cc8c18e3e" />
+
 
 Remarque : Le fichier .env n’est pas visible 
 
@@ -135,16 +142,23 @@ Remarque : Le fichier .env n’est pas visible
 docker-compose up -d
 ```
 
-![image.png](attachment:8366e31e-fffa-4d97-ba70-d7b2b6037317:image.png)
+<img width="1626" height="376" alt="image" src="https://github.com/user-attachments/assets/61bf9ae7-825e-49b6-9186-e993f2f79d3b" />
+
 
 - Avec la commande :   docker ps :  on peut voir nos conteneur
 
-![image.png](attachment:707618a6-e854-44b4-8f13-e541d06b40c6:image.png)
+<img width="1642" height="383" alt="image" src="https://github.com/user-attachments/assets/593ed234-cff8-4f4a-92ff-9f2b0d3d5b44" />
+
 
 - On peut se connecter sur l’interface de notre GLPI :
 
-![image.png](attachment:1eb94047-b6e2-4066-924d-d77231597146:image.png)
+<img width="966" height="512" alt="image" src="https://github.com/user-attachments/assets/c47cff25-1852-4e22-8c0f-90b17f7472cb" />
+
 
 Mot de passe par défaut est : glpi/glpi
 
-![image.png](attachment:020ff4d5-add3-4462-83a1-2ae2123e166e:image.png)
+<img width="1838" height="372" alt="image" src="https://github.com/user-attachments/assets/6c483897-59ff-4457-8381-ad6abd9cf2d9" />
+
+---
+OUSMANE KA
+
